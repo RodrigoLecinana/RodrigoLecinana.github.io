@@ -2,28 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: tomato;
     font-family: sans-serif;
     list-style: none;
 }
 
+
+
 main {
-    margin: 5% 20%;
+    background: tomato;
+    padding: 0.5% 25% 5% 25%;
     text-align: center;
+    
 }
 
-h1 {
+header {
+    background: olive;
+    
+}
+
+h1{
     color: white;    
     border: 2px solid white;
-    padding: 2px;
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 37%;
+    margin-right: 37%;
+    padding: 1% 0;
+
 }
 .lista_elementos {
     margin-top: 20px;
     color: gray;
-    font-size: 25px;
-    
-
+    font-size: 25px;   
 }
 
 .lista_elementos__item{
@@ -47,8 +57,10 @@ h1 {
     color: blue;
 }
 
-footer {
+body footer {
+    
     text-align: center;
-    background-color: olive;
-    color:white
+    color:white;
+    background-color:olive;
+    padding: 10px 0;
 }
