@@ -6,11 +6,13 @@
     list-style: none;
 }
 
-
+html {
+    font-size: 62.5%;
+}
 
 main {
     background: tomato;
-    padding: 0.5% 25% 5% 25%;
+    padding: 5rem 0;
     text-align: center;
     
 }
@@ -40,12 +42,20 @@ h1{
     color: white;
     text-align: left;
     margin-top: 15px;
+    background-color: olive;
+    border-radius: 2px;
+    text-indent: 20%;
+    padding: 1rem;
 }
 
-.lista_elementos__item__i {
-    margin-top: 10px;
+.lista_elementos__item__i section {
+    margin: 0 auto;
+    margin-top:1rem;       
     background-color: olive;
     font-size: 15px;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
 }
 
 .lista_elementos__item__i a{
@@ -58,9 +68,9 @@ h1{
 }
 
 body footer {
-    
+    font-size: 2rem;
     text-align: center;
     color:white;
     background-color:olive;
-    padding: 10px 0;
+    padding: 1rem;
 }
