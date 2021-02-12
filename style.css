@@ -27,7 +27,6 @@ header {
 
 header h1 {
     color: var(--secundary-color);
-    border: 2px solid var(--secundary-color);
     padding: 4px;
 }
 
