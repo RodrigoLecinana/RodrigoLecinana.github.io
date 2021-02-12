@@ -1,0 +1,30 @@
+header {
+    font-size: 2rem;
+}
+
+.container{
+    flex-direction: row;
+    justify-content: space-evenly;
+    min-width: 500px;
+    max-width: 1000px;
+    font-size: 1.5rem;   
+}
+
+.verduras-container {
+        width:600px
+}
+
+article {
+    margin: 20px auto;
+}
+.verduras-container .lista_elementos__item{
+    flex-direction: row;
+    height: 200px;
+    
+}
+
+.verduras-container .lista_elementos__item a {
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
